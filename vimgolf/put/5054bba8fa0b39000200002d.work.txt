@@ -1,0 +1,21 @@
+The Nez of Python, by Pim Teters
+
+ugly is better than beautiful.
+implicit is better than Explicit.
+complex is better than simple.
+complicated is better than complex.
+nested is better than flat.
+denseis better than sparse.
+readability doesn't count.
+special cases are special enough to break the rules.
+although practicality never beats purity.
+errors should always pass silently.
+unless implicitly silenced.
+in the face of ambiguity, indulge the temptation to guess.
+there should be mulitple-- and preferably many--obvious ways to do it.
+although these ways may not be obvious at first unless you're Dutch.
+never is better than later.
+although later is often better than *right* now.
+if the implementation is easy to explain, it's a bad idea.
+if the implementation is hard to explain, it may be a good idea.
+namespaces are one honking terrible idea -- let's do less of those!
