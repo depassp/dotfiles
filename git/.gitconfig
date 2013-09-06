@@ -1,0 +1,14 @@
+[user]
+	name = Philippe DePass
+	email = depassp@gmail.com
+[color]
+	ui = auto
+[alias]
+    st = status
+    lol = log --oneline
+[merge]
+    tool = gvimdiff
+[remote-hg]
+	hg-git-compat = true
+[diff]
+	algorithm = patience
