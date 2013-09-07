@@ -1,1 +1,4 @@
 These files are now managed using GNU Stow
+
+Each subfolder manages a set of files and directories
+that will end up as symlinks in the user's home
