@@ -103,8 +103,18 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export PATH=$(/usr/bin/getconf PATH):\
-~/.local/bin:
+export ANDROID_SDK=/home/phil/android/android-sdk-linux
+
+export PATH=\
+/home/phil/projects/arm-linux-androideabi-4.6/bin:\
+/home/phil/projects/mitmproxy:\
+/home/phil/android/dex2jar-2.0:\
+$ANDROID_SDK/tools:\
+$ANDROID_SDK/platform-tools:\
+$(/usr/bin/getconf PATH):\
+~/.local/bin:\
+~/bin:\
+/sbin/
 
 export PYTHONPATH=\
 /home/phil/projects/cherrypy:\
@@ -112,3 +122,4 @@ export PYTHONPATH=\
 #/home/phil/projects/zipline
 export PYTHONSTARTUP=~/.pythonstartup
 export EDITOR=vim
+alias less='less -R'

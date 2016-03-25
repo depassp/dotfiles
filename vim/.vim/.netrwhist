@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/phil/projects/jsoup/src/test/java/org'
 let g:netrw_dirhist_2='/home/phil/projects/jsoup/src/test/java/org/jsoup'
 let g:netrw_dirhist_3='/home/phil/projects/jsoup/src/test/java/org/jsoup/parser'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/home/phil/bin'
 let g:netrw_dirhist_5='/home/phil/Dropbox/dotfiles/vim/macros/ttcoach/en'
 let g:netrw_dirhist_6='/home/phil/projects/requests/tests'
 let g:netrw_dirhist_7='/home/phil/.vim'
+let g:netrw_dirhist_8='/run/user/phil/gvfs/smb-share:server=media,share=tv'
