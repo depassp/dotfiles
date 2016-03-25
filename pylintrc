@@ -1,0 +1,13 @@
+[FORMAT]
+max-line-length=200
+
+[BASIC]
+const-rgx=(([A-Za-z_][A-Za-z0-9_]*)|(__.*__))$
+function-rgx=[a-zA-Z_][a-zA-Z0-9_]{2,30}$
+method-rgx=[a-zA-Z_][a-zA-Z0-9_]{2,30}$
+attr-rgx=[a-zA-Z_][a-zA-Z0-9_]{2,30}$
+argument-rgx=[a-zA-Z_][a-zA-Z0-9_]{2,30}$
+variable-rgx=[a-zA-Z_][a-zA-Z0-9_]{2,30}$
+
+[MESSAGES CONTROL]
+disable=W0704,C0301,C0302,C0111,R0903,R0902,R0201,W0614,W0602,C0103,W0603,C0321,F0401,W0603,W0602,C0301,C0111,C0321,C0103,W0401,W0614,E0202
